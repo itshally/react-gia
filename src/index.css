@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* custom css */
+#navbar{
+  padding: 1rem;
+}
+.user-profile{
+  padding: 2rem;
+}
+#profile-photo{
+  height: 250px;
+  width: 250px;
+  margin: auto;
+  display: block;
+  box-shadow: 0 0 5px 0.5px black;
+}
+.list-group{
+  padding: 2rem 0;
+  width: 50%;
+  margin: auto;
+}
+.list-group-item{
+  background-color: transparent !important;
+}
+.list-group-item:first-child{
+  border-top-color: transparent;
+}
+
+.data-label{
+  padding: 0.5rem 1rem;
+  text-align: right;
+  font-weight: bold;
+}
